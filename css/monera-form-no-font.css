@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+.monera-form-container {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.monera-form-content-container {  
+    padding: 30px;
+    padding-bottom:0px;
+    background: #F2F2F2;
+    position: relative;
+}
+
+.monera-gratis-tjek-circle {
+    width: 100px;
+    height: 100px;
+    background: #002E41;
+    position: absolute;
+    top: -40px;
+    right: 40px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+
+.monera-gratis-tjek-circle-mobile {
+    width: 100%;
+    background: #002E41;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.monera-gratis-tjek-circle-mobile > p {
+    width: 100%;
+    background: #002E41;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.monera-gratis-tjek-circle > p {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 25px;
+}
+
+
+
+.monera-form-content-container > h1 {
+    color: #002f40;
+    font-size: 25px;
+    margin-top: 0px !important;
+    font-weight: bold;
+}
+
+.monera-form-content-container > p {
+    font-size: 16px;
+}
+
+.monera-form-row { 
+    position: relative;
+}
+
+.monera-form-row-left {
+    width: 100%;
+    float: left;
+    padding-right: 10px;
+}
+
+.monera-form-row-right {
+   width: 100%;
+   float: right;
+    padding-right: 10px;
+}
+
+.monera-form-row-clear {
+  clear:both;
+}
+
+.monera-input-label {
+    width: 30%;
+    background: #EAEAEA;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.monera-text-field-container {
+    width: 68%;
+    display: inline-block;
+    margin: 0px;
+    margin-left: -4px;
+}
+
+.monera-text-field {
+    width: 100%;
+    padding: 0px !important;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+    border: 0px !important;
+    height: auto !important;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 10px !important;
+    font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic;
+}
+
+:-ms-input-placeholder {  
+  font-style: italic;
+}
+
+.monera-beti-checkbox-holder {
+    background: #EAEAEA;
+    padding-top: 12px;
+    padding-bottom:13px;
+    border-radius: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.monera-beti-checkbox-label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -10px;
+}
+.monera-beti-checkbox {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+
+.monera-text-holder {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom:13px;
+    border-radius: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.monera-text {
+    font-size: 13px;
+    padding-top: 5px;
+    font-style: italic;
+    color: #002f40;
+}
+
+.monera-submit-button {
+    background: #4AA54C !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto !important;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border: 0px;
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+    border: 0px !important;
+}
+
+.monera-submit-button:hover {
+    background: #3b843d !important;
+}
+
+.monera-logo-bottom-holder {
+    padding: 15px;
+    margin-top:-30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #E5E5E5;
+}
+
+.monera-logo-bottom-left {
+    float: left;
+    max-width: 40%;
+}
+
+.monera-logo-bottom-left  > a {
+    text-decoration: none !important;
+    border-bottom: 0px !important;
+}
+
+.monera-logo-bottom-right > a {
+    text-decoration: none !important;
+    border-bottom: 0px !important;
+}
+
+.monera-logo-bottom-right {
+    margin-top: 6px;
+    float: right;
+    max-width: 40%;
+}
+
+.monera-logo-link {
+    font-size: 25px;
+    color: #002E41 !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.monera-logo-link-right {
+    font-size: 13px;
+    color: #97A0A5 !important;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.monera-terms {
+    margin-bottom: 0px !important;
+    padding-left: 10px !important;
+}
+
+.monera-terms > a {
+    text-decoration: none !important;
+    border-bottom: 0px !important;
+}
+
+.monera-form-row-hidden {
+    padding: 0px;
+    display: none;
+}
+
+@media all and (min-width: 0px) and (max-width:1000px) {
+    
+    .monera-form-row-left {
+        width: 100%;
+        float: left;
+        margin-bottom: 15px;
+    }
+
+    .monera-form-row-right {
+        width: 100%;
+        float: right;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width:800px) {
+
+    .monera-gratis-tjek-circle {
+        display: none;
+    }
+    
+    .monera-gratis-tjek-circle-mobile {
+        display:block;
+    }
+    
+}
