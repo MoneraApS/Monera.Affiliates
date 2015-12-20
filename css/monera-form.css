@@ -8,7 +8,7 @@
 
 .monera-form-content-container {  
     padding: 30px;
-    padding-bottom:0px;
+    padding-bottom:30px;
     background: #F2F2F2;
     position: relative;
 }
@@ -27,6 +27,10 @@
     display: none;
 }
 
+.monera-beti-text-holder {
+    margin-bottom: 0px;
+}
+
 .monera-gratis-tjek-circle-mobile {
     width: 100%;
     background: #002E41;
@@ -36,14 +40,14 @@
 }
 
 .monera-gratis-tjek-circle-mobile > p {
-    width: 100%;
-    background: #002E41;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 0px;
+    width: 100% !important;
+    background: #002E41 !important;
+    color: white !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 0px !important;
 }
 
 .monera-gratis-tjek-circle > p {
@@ -73,6 +77,7 @@
 
 .monera-form-row { 
     position: relative;
+    margin-bottom: 10px;
 }
 
 .monera-form-row-left {
@@ -188,20 +193,21 @@
 
 .monera-submit-button {
     background: #4AA54C !important;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
     height: auto !important;
     border-radius: 5px;
-    color: white;
-    font-weight: bold;
+    color: white !important;
+    font-weight: bold !important;
     width: 100%;
     border: 0px;
-    font-size: 15px;
+    font-size: 15px !important;
     margin: 0px;
     margin-top: 5px;
     cursor: pointer;
     transition: 0.5s all;
     border: 0px !important;
+    box-shadow: none !important;
 }
 
 .monera-submit-button:hover {
@@ -210,9 +216,9 @@
 
 .monera-logo-bottom-holder {
     padding: 15px;
-    margin-top:-30px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 20px;
     background: #E5E5E5;
 }
 
@@ -255,6 +261,7 @@
 
 .monera-terms {
     margin-bottom: 0px !important;
+    padding-bottom: 10px;
     padding-left: 10px !important;
 }
 
